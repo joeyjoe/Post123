@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5FD6BE1A451CAE00B84324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FD6BD1A451CAE00B84324 /* AppDelegate.swift */; };
+		BF5FD6C01A451CAE00B84324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FD6BF1A451CAE00B84324 /* ViewController.swift */; };
+		BF5FD6C31A451CAE00B84324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5FD6C11A451CAE00B84324 /* Main.storyboard */; };
+		BF5FD6C51A451CAE00B84324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5FD6C41A451CAE00B84324 /* Images.xcassets */; };
+		BF5FD6C81A451CAE00B84324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FD6C61A451CAE00B84324 /* LaunchScreen.xib */; };
+		BF5FD6D41A451CAE00B84324 /* Super_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FD6D31A451CAE00B84324 /* Super_CallTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5FD6CE1A451CAE00B84324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5FD6B01A451CAD00B84324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5FD6B71A451CAD00B84324;
+			remoteInfo = "Super Call";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF5FD6B81A451CAD00B84324 /* Super Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5FD6BC1A451CAE00B84324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5FD6BD1A451CAE00B84324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF5FD6BF1A451CAE00B84324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF5FD6C21A451CAE00B84324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF5FD6C41A451CAE00B84324 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF5FD6C71A451CAE00B84324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF5FD6CD1A451CAE00B84324 /* Super CallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super CallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5FD6D21A451CAE00B84324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5FD6D31A451CAE00B84324 /* Super_CallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_CallTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5FD6B51A451CAD00B84324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5FD6CA1A451CAE00B84324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5FD6AF1A451CAD00B84324 = {
+			isa = PBXGroup;
+			children = (
+				BF5FD6BA1A451CAD00B84324 /* Super Call */,
+				BF5FD6D01A451CAE00B84324 /* Super CallTests */,
+				BF5FD6B91A451CAD00B84324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5FD6B91A451CAD00B84324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FD6B81A451CAD00B84324 /* Super Call.app */,
+				BF5FD6CD1A451CAE00B84324 /* Super CallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5FD6BA1A451CAD00B84324 /* Super Call */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FD6BD1A451CAE00B84324 /* AppDelegate.swift */,
+				BF5FD6BF1A451CAE00B84324 /* ViewController.swift */,
+				BF5FD6C11A451CAE00B84324 /* Main.storyboard */,
+				BF5FD6C41A451CAE00B84324 /* Images.xcassets */,
+				BF5FD6C61A451CAE00B84324 /* LaunchScreen.xib */,
+				BF5FD6BB1A451CAE00B84324 /* Supporting Files */,
+			);
+			path = "Super Call";
+			sourceTree = "<group>";
+		};
+		BF5FD6BB1A451CAE00B84324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FD6BC1A451CAE00B84324 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF5FD6D01A451CAE00B84324 /* Super CallTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FD6D31A451CAE00B84324 /* Super_CallTests.swift */,
+				BF5FD6D11A451CAE00B84324 /* Supporting Files */,
+			);
+			path = "Super CallTests";
+			sourceTree = "<group>";
+		};
+		BF5FD6D11A451CAE00B84324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FD6D21A451CAE00B84324 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5FD6B71A451CAD00B84324 /* Super Call */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5FD6D71A451CAE00B84324 /* Build configuration list for PBXNativeTarget "Super Call" */;
+			buildPhases = (
+				BF5FD6B41A451CAD00B84324 /* Sources */,
+				BF5FD6B51A451CAD00B84324 /* Frameworks */,
+				BF5FD6B61A451CAD00B84324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Super Call";
+			productName = "Super Call";
+			productReference = BF5FD6B81A451CAD00B84324 /* Super Call.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5FD6CC1A451CAE00B84324 /* Super CallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5FD6DA1A451CAE00B84324 /* Build configuration list for PBXNativeTarget "Super CallTests" */;
+			buildPhases = (
+				BF5FD6C91A451CAE00B84324 /* Sources */,
+				BF5FD6CA1A451CAE00B84324 /* Frameworks */,
+				BF5FD6CB1A451CAE00B84324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5FD6CF1A451CAE00B84324 /* PBXTargetDependency */,
+			);
+			name = "Super CallTests";
+			productName = "Super CallTests";
+			productReference = BF5FD6CD1A451CAE00B84324 /* Super CallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5FD6B01A451CAD00B84324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Malek;
+				TargetAttributes = {
+					BF5FD6B71A451CAD00B84324 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BF5FD6CC1A451CAE00B84324 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BF5FD6B71A451CAD00B84324;
+					};
+				};
+			};
+			buildConfigurationList = BF5FD6B31A451CAD00B84324 /* Build configuration list for PBXProject "Super Call" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF5FD6AF1A451CAD00B84324;
+			productRefGroup = BF5FD6B91A451CAD00B84324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5FD6B71A451CAD00B84324 /* Super Call */,
+				BF5FD6CC1A451CAE00B84324 /* Super CallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5FD6B61A451CAD00B84324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5FD6C31A451CAE00B84324 /* Main.storyboard in Resources */,
+				BF5FD6C81A451CAE00B84324 /* LaunchScreen.xib in Resources */,
+				BF5FD6C51A451CAE00B84324 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5FD6CB1A451CAE00B84324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5FD6B41A451CAD00B84324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5FD6C01A451CAE00B84324 /* ViewController.swift in Sources */,
+				BF5FD6BE1A451CAE00B84324 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5FD6C91A451CAE00B84324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5FD6D41A451CAE00B84324 /* Super_CallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5FD6CF1A451CAE00B84324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5FD6B71A451CAD00B84324 /* Super Call */;
+			targetProxy = BF5FD6CE1A451CAE00B84324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF5FD6C11A451CAE00B84324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5FD6C21A451CAE00B84324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF5FD6C61A451CAE00B84324 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5FD6C71A451CAE00B84324 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5FD6D51A451CAE00B84324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF5FD6D61A451CAE00B84324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5FD6D81A451CAE00B84324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Super Call/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF5FD6D91A451CAE00B84324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Super Call/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF5FD6DB1A451CAE00B84324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Super CallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Call.app/Super Call";
+			};
+			name = Debug;
+		};
+		BF5FD6DC1A451CAE00B84324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Super CallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Call.app/Super Call";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5FD6B31A451CAD00B84324 /* Build configuration list for PBXProject "Super Call" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5FD6D51A451CAE00B84324 /* Debug */,
+				BF5FD6D61A451CAE00B84324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5FD6D71A451CAE00B84324 /* Build configuration list for PBXNativeTarget "Super Call" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5FD6D81A451CAE00B84324 /* Debug */,
+				BF5FD6D91A451CAE00B84324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF5FD6DA1A451CAE00B84324 /* Build configuration list for PBXNativeTarget "Super CallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5FD6DB1A451CAE00B84324 /* Debug */,
+				BF5FD6DC1A451CAE00B84324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF5FD6B01A451CAD00B84324 /* Project object */;
+}
