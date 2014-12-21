@@ -13,6 +13,8 @@
 		BF5FD6C51A451CAE00B84324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5FD6C41A451CAE00B84324 /* Images.xcassets */; };
 		BF5FD6C81A451CAE00B84324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FD6C61A451CAE00B84324 /* LaunchScreen.xib */; };
 		BF5FD6D41A451CAE00B84324 /* Super_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FD6D31A451CAE00B84324 /* Super_CallTests.swift */; };
+		BF5FD6DF1A451E5900B84324 /* Quran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5FD6DD1A451E5900B84324 /* Quran.jpg */; };
+		BF5FD6E01A451E5900B84324 /* Quranbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5FD6DE1A451E5900B84324 /* Quranbackground.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BF5FD6CD1A451CAE00B84324 /* Super CallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super CallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5FD6D21A451CAE00B84324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5FD6D31A451CAE00B84324 /* Super_CallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_CallTests.swift; sourceTree = "<group>"; };
+		BF5FD6DD1A451E5900B84324 /* Quran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quran.jpg; sourceTree = "<group>"; };
+		BF5FD6DE1A451E5900B84324 /* Quranbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quranbackground.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		BF5FD6BB1A451CAE00B84324 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF5FD6DD1A451E5900B84324 /* Quran.jpg */,
+				BF5FD6DE1A451E5900B84324 /* Quranbackground.jpg */,
 				BF5FD6BC1A451CAE00B84324 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					BF5FD6B71A451CAD00B84324 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = EZK2FQXSSY;
 					};
 					BF5FD6CC1A451CAE00B84324 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +199,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5FD6E01A451E5900B84324 /* Quranbackground.jpg in Resources */,
 				BF5FD6C31A451CAE00B84324 /* Main.storyboard in Resources */,
 				BF5FD6C81A451CAE00B84324 /* LaunchScreen.xib in Resources */,
 				BF5FD6C51A451CAE00B84324 /* Images.xcassets in Resources */,
+				BF5FD6DF1A451E5900B84324 /* Quran.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Super Call/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Super Call/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
